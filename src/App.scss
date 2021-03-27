@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic);
+@import './fonts/style.css';
+
+@import '../node_modules/normalize-scss/sass/normalize';
+@include normalize();
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Banny';
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}

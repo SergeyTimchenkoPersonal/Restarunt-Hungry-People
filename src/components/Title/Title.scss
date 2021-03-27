@@ -1,0 +1,19 @@
+.title {
+	font-family: Banny;
+	font-size: 96px;
+	letter-spacing: 0em;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin-bottom: 20px;
+	&::after {
+		content: '';
+		position: absolute;
+		left: 47%;
+		top: 102%;
+		width: 60px;
+		height: 5px;
+		background: #e8c300;
+		border-radius: 50px;
+	}
+}
